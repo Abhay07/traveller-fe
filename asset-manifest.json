@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/traveller-fe/static/css/main.c88a48b7.chunk.css",
+    "main.js": "/traveller-fe/static/js/main.0d8061ed.chunk.js",
+    "main.js.map": "/traveller-fe/static/js/main.0d8061ed.chunk.js.map",
+    "runtime~main.js": "/traveller-fe/static/js/runtime~main.e7a31cd2.js",
+    "runtime~main.js.map": "/traveller-fe/static/js/runtime~main.e7a31cd2.js.map",
+    "static/js/2.fe8d3990.chunk.js": "/traveller-fe/static/js/2.fe8d3990.chunk.js",
+    "static/js/2.fe8d3990.chunk.js.map": "/traveller-fe/static/js/2.fe8d3990.chunk.js.map",
+    "index.html": "/traveller-fe/index.html",
+    "precache-manifest.cfad1919c8aa531e9d877ece73800083.js": "/traveller-fe/precache-manifest.cfad1919c8aa531e9d877ece73800083.js",
+    "service-worker.js": "/traveller-fe/service-worker.js",
+    "static/css/main.c88a48b7.chunk.css.map": "/traveller-fe/static/css/main.c88a48b7.chunk.css.map"
+  }
+}
