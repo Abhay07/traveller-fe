@@ -1,0 +1,36 @@
+.userDetails {
+	display: flex;
+    padding: 10px;
+    background-color: #f1f1f1;
+    align-items: center;
+    border-bottom: 1px solid #b8b8b8;
+    color: black;
+    text-decoration: none;
+}
+.userDetails > *{
+	flex:1;
+}
+
+.editBtn{
+	border: none;
+    background-color: #2196F3;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.editBtn:active{
+	text-decoration: none;
+}
+
+.editBtn:hover{
+	background-color: #165b93;
+}
+
+.userDetails a{
+	text-decoration: none;
+	color:black;
+}

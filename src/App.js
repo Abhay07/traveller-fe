@@ -1,26 +1,38 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
+import TravellerList from './components/TravellerList';
+import TravellerDetail from './components/TravellerDetail';
+import Alert from './components/Alert';
+import { connect } from 'react-redux';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render(){
+    console.log(this.props);
+    const {alert} = this.props;
+    return (
+      <Router>
+        <div>
+          <Navbar />
+          {
+            alert.alertVisibility && <Alert />
+          }
+          <Route path="/traveller-fe/" exact component={Home} />
+          <Route path="/traveller-fe/list/" component={TravellerList} />
+          <Route path="/traveller-fe/detail/" component={TravellerDetail} />
+        </div>
+      </Router>
+    );
+  }
 }
 
-export default App;
+const mapStateToProps = (state) => {
+  console.log(state);
+  return {
+    alert: state.alert
+  }
+}
+
+export default connect(mapStateToProps,null)(App);

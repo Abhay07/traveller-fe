@@ -1,0 +1,14 @@
+.alert{
+	display: inline-block;
+	background-color: red;
+	padding:5px 50px;
+	position: fixed;
+	top:100px;
+	left:50%;
+	transform:translateX(-50%);
+	color: #fff;
+}
+
+.info{
+	background-color: green;
+}
