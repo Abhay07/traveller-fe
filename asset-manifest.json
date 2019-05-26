@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/traveller-fe/static/css/main.c88a48b7.chunk.css",
-    "main.js": "/traveller-fe/static/js/main.9481e03e.chunk.js",
-    "main.js.map": "/traveller-fe/static/js/main.9481e03e.chunk.js.map",
+    "main.js": "/traveller-fe/static/js/main.af1e5881.chunk.js",
+    "main.js.map": "/traveller-fe/static/js/main.af1e5881.chunk.js.map",
     "runtime~main.js": "/traveller-fe/static/js/runtime~main.e7a31cd2.js",
     "runtime~main.js.map": "/traveller-fe/static/js/runtime~main.e7a31cd2.js.map",
     "static/js/2.fe8d3990.chunk.js": "/traveller-fe/static/js/2.fe8d3990.chunk.js",
     "static/js/2.fe8d3990.chunk.js.map": "/traveller-fe/static/js/2.fe8d3990.chunk.js.map",
     "index.html": "/traveller-fe/index.html",
-    "precache-manifest.44a9ab628c8fe69a1571cfd8c5374de1.js": "/traveller-fe/precache-manifest.44a9ab628c8fe69a1571cfd8c5374de1.js",
+    "precache-manifest.28dd947b0e62722d5da34f3f1b5cf901.js": "/traveller-fe/precache-manifest.28dd947b0e62722d5da34f3f1b5cf901.js",
     "service-worker.js": "/traveller-fe/service-worker.js",
     "static/css/main.c88a48b7.chunk.css.map": "/traveller-fe/static/css/main.c88a48b7.chunk.css.map"
   }
